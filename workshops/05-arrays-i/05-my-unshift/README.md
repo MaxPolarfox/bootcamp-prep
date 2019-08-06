@@ -1,8 +1,8 @@
 ### My Unshift
 
-Write a function `unShift` that takes an array and a value of any type as arguments.
+Write a function `myUnshift` that takes an array and a value of any type as arguments.
 
-`unShift` should return a new array, with the given value as the first element
+`myUnshift` should return a new array, with the given value as the first element
 in the new array.
 
 ```javascript

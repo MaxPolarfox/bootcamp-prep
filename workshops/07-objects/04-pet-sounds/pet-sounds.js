@@ -38,3 +38,10 @@ let animalNoises = [
 ];
 
 // YOUR CODE BELOW
+const petSounds = (pet, country) => {
+  for (let val of animalNoises){
+    for (let animal in val) {
+      if (animal === pet) return `${pet.slice(0,1).toUpperCase()}${pet.slice(1)}s in ${country} say ${val[animal][country]}`
+    }
+  }
+}

@@ -38,3 +38,19 @@ let classRoom = [
 ];
 
 // YOUR CODE BELOW
+const  attendanceCheck = (day) => {
+  let arr = [];
+  
+  for (let val of classRoom) {
+    
+    for (let name in val) { 
+      
+     for (let weekDay of val[name]) {
+      
+       if (weekDay[day]) arr.push(name);
+     }
+      
+    }
+  }
+  return arr
+}
